@@ -2,7 +2,7 @@
 try
 
 {
-    $bdd = new PDO('mysql:host=sql.franceserv.com; dbname=pauline-rdc_db4', 'pauline-rdc', 'Maeve24');
+     $bdd = new PDO('mysql:host=localhost;dbname=gsb_ppe2et4; charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {
